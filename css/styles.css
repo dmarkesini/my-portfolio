@@ -86,7 +86,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 #vanta_birds {
-  position: absolute;
+  position: absolute !important;
   display: block;
   min-width: 100%;
   min-height: 100vh;
@@ -11826,6 +11826,7 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  height: 50vw;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
