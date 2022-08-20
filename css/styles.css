@@ -3777,9 +3777,9 @@ fieldset:disabled .btn {
   opacity: 0;
 }
 
-/* .collapse:not(.show) {
+.collapse:not(.show) {
   display: none;
-} */
+}
 
 .collapsing {
   height: 0;
@@ -4344,7 +4344,7 @@ fieldset:disabled .btn {
 }
 .navbar-nav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4513,13 +4513,6 @@ fieldset:disabled .btn {
   }
 }
 
-/* Outside of media query to fix issue with navbar not showing */
-.navbar-expand-lg .navbar-collapse {
-  display: flex !important;
-  flex-basis: auto;
-}
-/* Outside of media query to fix issue with navbar not showing */
-
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
@@ -4537,6 +4530,11 @@ fieldset:disabled .btn {
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
   }
 
   .navbar-expand-lg .navbar-toggler {
@@ -7598,11 +7596,6 @@ fieldset:disabled .btn {
 .mx-0 {
   margin-right: 0 !important;
   margin-left: 0 !important;
-}
-
-.mx-override {
-  margin-right: 0.25rem !important;
-  margin-left: 0.25rem !important;
 }
 
 .mx-1 {
@@ -11763,10 +11756,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #fff;
-  background: #1abc9c;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  color: #1abc9c;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
