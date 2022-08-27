@@ -142,7 +142,7 @@
 
 
     <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section portfolio bg-light" id="portfolio">
       <div class="container">
         <!-- Portfolio Section Heading-->
         <h2
@@ -159,7 +159,7 @@
         <!-- Portfolio Grid Items-->
         <div class="row justify-content-center">
           <!-- Portfolio Item 1-->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-4 mb-5 ">
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
@@ -232,50 +232,111 @@
       </div>
     </section>
     <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
+           <!-- About Section Content-->
+ <section class="page-section" id="about">
       <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-white">
+              <!-- About Section Heading-->
+        <h2 class="page-section-heading text-center text-secondary mb-0">
           About
         </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
+                <!-- Icon Divider-->
+        <div class="divider-custom">
           <div class="divider-custom-line"></div>
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
         </div>
-        <!-- About Section Content-->
-        <div class="row">
-          <div class="col-lg-4 ms-auto">
-            <p class="lead">
-              Freelancer is a free bootstrap theme created by Start Bootstrap.
-              The download includes the complete source files including HTML,
-              CSS, and JavaScript as well as optional SASS stylesheets for easy
-              customization.
-            </p>
-          </div>
-          <div class="col-lg-4 me-auto">
-            <p class="lead">
-              You can create your own custom avatar for the masthead, change the
-              icon in the dividers, and add your email address to the contact
-              form to make it fully functional!
-            </p>
-          </div>
-        </div>
-       
+      <!-- ------CONTENT------------>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img
+                class="rounded-circle img-fluid"
+                src="assets/img/young.png"
+                alt="young me"
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Once upon a time</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                 Attending high-school was not my best time, but achieving a Computer Science Diploma made it so much fun.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="assets/img/newcup.jpeg" alt="javascript cup" />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Graduating University</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+               I managed to make one of life goals true, which was to attend University and earn a first-class degree. 
+               However, sometimes when you plan plan plan, life does not quite work out how you expected it to.
+              </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img
+                class="rounded-circle img-fluid"
+                src="assets/img/nc.png"
+                alt="Northcoders"
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>From Psychologist back to Dev</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  A year before I finished University I knew what I wanted my career to be, Software Engineering.
+                    I cherich my degree and it will always be useful to me but Software Engineering is where I belong and I am glad I found my way back 
+                    to it! I picked Northcoders and timed it so that as soon as I graduated, I started Northcoders.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted last">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid" src="assets/img/graduation.jpeg" alt="graduation cap" />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Present Day!</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  With only a few weeks left on the course, I am more excited than ever 
+                  as I will get to use my coding skills in a professional
+                  setting! My long-term planning can help build and advance growth initiatives 
+                  within your organisation. I am committed in creating opportunities that can 
+                  benefit my career and my future employer.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
+     <!-- About Section Content-->
     <!-- Contact Section-->
-    <section class="page-section" id="contact">
+    <section class="page-section bg-primary" id="contact">
       <div class="container">
         <!-- Contact Section Heading-->
         <h2
-          class="page-section-heading text-center text-secondary mb-0"
+          class="page-section-heading text-center text-secondary mb-0 text-white"
         >
           Contact Me
         </h2>
         <!-- Icon Divider-->
-        <div class="divider-custom">
+        <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
           <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
           <div class="divider-custom-line"></div>
@@ -285,11 +346,7 @@
           <div class="col-lg-8 col-xl-7">
             <!-- * * * * * * * * * * * * * * *-->
             <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
+      
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
               <!-- Name input-->
               <div class="form-floating mb-3">
@@ -381,6 +438,7 @@
               <button
                 class="btn btn-primary btn-xl disabled"
                 id="submitButton"
+                style="background-color: white; color: black"
                 type="submit"
               >
                 Send
@@ -464,8 +522,9 @@
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
-                    My portfolio was built with core technologies such as HTML 5, CSS 3 and JavaScript and I also utilised React Bootstrap.
-                  My portfolio project can be found on<a href="https://github.com/dmarkesini/my-portfolio"> Github. </a></p>
+                    My portfolio was built with core technologies such as HTML 5, CSS 3 and JavaScript 
+                    and I also utilised React Bootstrap.
+                  More on the project can be found on<a href="https://github.com/dmarkesini/my-portfolio"> Github. </a></p>
                   <button class="btn btn-primary" data-bs-dismiss="modal">
                     <i class="fas fa-xmark fa-fw"></i>
                     Close Window
@@ -521,8 +580,9 @@
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
-                   This is a back-end API project built with Node.js which is the back-end JavaScript environment with the Test Drive Development (TDD) approach. This project enables the user to perform CRUD operations for several endpoints which are showcased in the picture.
-                  The project can be found on <a href="https://github.com/dmarkesini/Backend-project"> Github.</a>
+                   This is a back-end API project built with Node.js, with the Test Driven Development (TDD) approach.
+                   This project enables the user to perform CRUD operations for several endpoints which are showcased in the picture.
+                   More on the project can be found on <a href="https://github.com/dmarkesini/Backend-project"> Github.</a>
                   </p>
                   <button class="btn btn-primary" data-bs-dismiss="modal">
                     <i class="fas fa-xmark fa-fw"></i>
@@ -579,7 +639,8 @@
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
-                   This is a front-end project built with React.JS and CSS 3. It is a social/news web application that enables the user to perform several actions such as
+                   This is a front-end project built with React.JS and CSS 3. It is a social/news web application 
+                   that enables the user to perform several actions such as
 
                     ● scrolling through articles
                     ● explore articles sorted by topic
