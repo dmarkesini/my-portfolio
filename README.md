@@ -13,7 +13,7 @@
 
 This is a front-end project built with JavaScript, HTML5 and CSS3. It is a portfolio-projects web application where all my projects are showcased with links to github.
 
-**Hosted version:** 
+**Hosted version:** https://dionysia-markesini-portfolio.herokuapp.com/index.html
 
 ---
 
@@ -59,6 +59,6 @@ Right-click on the HTML file and choose "open with Live Server"
 
 ## Hosting
 
-This front-end application is hosted on [Heroku](https://www.heroku.com/) at 
+This front-end application is hosted on [Heroku](https://www.heroku.com/) at https://dionysia-markesini-portfolio.herokuapp.com/index.html.
 
 ---
