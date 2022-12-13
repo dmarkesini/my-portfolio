@@ -13,7 +13,7 @@
 
 This is a front-end project built with JavaScript, HTML5 and CSS3. It is a portfolio-projects web application where all my projects are showcased with links to github.
 
-**Hosted version:** https://dionysia-markesini-portfolio.herokuapp.com/index.html
+**Hosted version:** https://dionysia-markesini-portfolio.netlify.app
 
 ---
 
