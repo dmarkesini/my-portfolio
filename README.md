@@ -59,6 +59,6 @@ Right-click on the HTML file and choose "open with Live Server"
 
 ## Hosting
 
-This front-end application is hosted on [Heroku](https://www.heroku.com/) at https://dionysia-markesini-portfolio.herokuapp.com/index.html.
+This front-end application is hosted on [Netlify](https://www.netlify.com/) at https://dionysia-markesini-portfolio.netlify.app.
 
 ---
